@@ -201,19 +201,7 @@ const Home = () => {
           <nav>
             <h1 className="heading">Alx Weather Application</h1>
           </nav>
-          {/*<ul className="options">
-              <button className="hourly" onClick={handleHourlyClick}>
-                today
-              </button>
-              <button className="week active" onClick={handleWeekClick}>
-                week
-              </button>
-            </ul>
-            <ul className="options units">
-              <button className="celcius active">°C</button>
-              <button className="fahrenheit">°F</button>
-            </ul>
-          </nav>*/}
+         
           <div className="cards" id="weather-cards"></div>
           <div className="highlights">
             <h2 className="heading">Today's Data</h2>
